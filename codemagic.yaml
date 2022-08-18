@@ -12,9 +12,9 @@ workflows:
             cocoapods: default
             groups:
                - ios  
-        cache:
-          cache_paths:
-            - $CM_BUILD_DIR/node_modules	      
+        # cache:
+        #   cache_paths:
+        #     - $CM_BUILD_DIR/node_modules	      
         scripts:
             - name: Set up keychain to be used for code signing using Codemagic CLI 'keychain' command
               script: keychain initialize
