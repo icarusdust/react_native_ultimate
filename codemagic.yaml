@@ -2,7 +2,7 @@ workflows:
     react-native-ios:
         name: React Native iOS
         max_build_duration: 120
-        instance_type: mac_pro
+        instance_type: linux_x2
         environment:
             vars:
                 XCODE_WORKSPACE: "react_native_test.xcworkspace"
