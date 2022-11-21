@@ -84,7 +84,7 @@ workflows:
         scripts:
             - name: Install npm dependencies
               script: |
-                npm -g install npm@7.19.1
+                npm install
 #              yarn install
 #            npm i @react-native-firebase/app
 #            npm i @react-native-firebase/messaging
