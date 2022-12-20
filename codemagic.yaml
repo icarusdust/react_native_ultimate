@@ -9,8 +9,8 @@ workflows:
                 XCODE_SCHEME: "react_native_test"
             xcode: 14.1
             cocoapods: default
-            node: 19.3.0
-            npm: 9.2.0
+            node: 17.3.1
+            npm: 8.5.2
             groups:
                - ios  
         # cache:
