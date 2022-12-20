@@ -6,9 +6,8 @@ workflows:
         environment:
             vars:
                 XCODE_WORKSPACE: "react_native_test.xcworkspace"
-                XCODE_SCHEME: "react_native_test"           
-            node: 16.6.0
-            xcode: 13.4
+                XCODE_SCHEME: "react_native_test"
+            xcode: 11.0
             cocoapods: default
             node: 12.14.1
             npm: 6.13.4
