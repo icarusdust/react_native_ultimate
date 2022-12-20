@@ -10,7 +10,7 @@ workflows:
             xcode: 14.1
             cocoapods: default
             node: 12.14.1
-            npm: 7.0.0
+            npm: 8.0.0
             groups:
                - ios  
         # cache:
